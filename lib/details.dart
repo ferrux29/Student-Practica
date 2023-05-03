@@ -99,7 +99,7 @@ class DetailStudent extends StatelessWidget {
                           size: 50.0,
                         ),
                         title: Text(
-                          'Enrollmant Date.-',
+                          'Enrollment Date.-',
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 20,

@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
     Map data = {'grant_type': 'password', 'username': email, 'password': pass};
     var jsonResponse;
     var response = await http.post(
-      "https://appservicesebastian.azurewebsites.net/token",
+      "apiurlpost",
       body: data,
     );
     if (response.statusCode == 200) {

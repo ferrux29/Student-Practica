@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class Api_Services {
   final String url =
-      "https://appservicesebastian.azurewebsites.net/api/Students";
+      "urlapi";
 
   /*
     <<< GET FUNCTION >>>
